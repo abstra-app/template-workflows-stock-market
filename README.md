@@ -1,6 +1,6 @@
-# Selenium example
+# Stock market workflow template
 
-This example shows how to use selenium with Abstra cloud
+This is a template for a workflow that uses selenium to check stock market informations.
 
 ## Requirements
 
