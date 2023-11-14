@@ -8,7 +8,6 @@ load_dotenv()
 
 stage = get_stage()
 
-
 def get_stocks():
     url = "https://twelve-data1.p.rapidapi.com/stocks"
 
@@ -25,7 +24,6 @@ def get_stocks():
     df = pd.DataFrame(stocks["data"])
 
     return df
-
 
 df = get_stocks()
 stage["stocks_df"] = df.to_dict()

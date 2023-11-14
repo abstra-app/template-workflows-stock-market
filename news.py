@@ -14,10 +14,9 @@ print(stage["selected_option"])
 url = "https://hackernoon.com/"
 state = "IDLE"
 
-
 # Run selenium
 def run_selenium():
-    print("Running selenium")
+    print("Running selenium...")
 
     try:
         if ABSTRA_SELENIUM_URL:
@@ -50,7 +49,6 @@ def run_selenium():
 
     except Exception as e:
         print(e)
-
 
 df = run_selenium()
 stage["headlines_df"] = df.to_dict()

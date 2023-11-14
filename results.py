@@ -17,5 +17,3 @@ elif stage["stocks_df"]:
 else:
     print("no saved headlines or stocks found")
 
-# Create dataframe from dict in stage['df']
-print(df)

@@ -4,9 +4,9 @@
     "name": "Untitled Workspace",
     "sidebar": [
       {
-        "id": "form-inicial",
-        "name": "Form Inicial",
-        "path": "form-inicial",
+        "id": "initial-form",
+        "name": "Initial form",
+        "path": "initial-form",
         "type": "form",
         "visible": false
       }
@@ -23,9 +23,10 @@
   "hooks": [],
   "forms": [
     {
-      "id": "form-inicial",
-      "path": "form-inicial",
-      "title": "Form Inicial",
+      "id": "initial-form",
+      "path": "initial-form",
+      "title": "Initial form",
+      "is_initial": true,
       "auto_start": false,
       "allow_restart": false,
       "end_message": null,
@@ -35,8 +36,7 @@
       "timeout_message": null,
       "start_button_text": null,
       "restart_button_text": null,
-      "is_initial": true,
-      "file": "form-inicial.py",
+      "file": "initial_form.py",
       "workflow_position": [
         -40.370713654483865,
         -139.79518905788677
@@ -64,6 +64,7 @@
       "file": "news.py",
       "path": "s4eb1opthg",
       "title": "News",
+      "is_initial": false,
       "workflow_position": [
         347.27629117470735,
         -191.38043139622002
@@ -82,6 +83,7 @@
       "file": "stocks.py",
       "path": "yo6a4zucu5o",
       "title": "Stocks",
+      "is_initial": false,
       "workflow_position": [
         362.76169054156594,
         -27.758007088755818
@@ -100,6 +102,7 @@
       "file": "results.py",
       "path": "ppj5gcvhuz",
       "title": "Results",
+      "is_initial": false,
       "workflow_position": [
         739.6662176256267,
         -136.79435013254005
